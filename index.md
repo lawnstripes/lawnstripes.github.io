@@ -1,6 +1,6 @@
-<div style="text-align: center">
-  ![preview](https://thumbs.gfycat.com/MindlessLargeDunlin-size_restricted.gif)
-</div>
+
+![preview](https://thumbs.gfycat.com/MindlessLargeDunlin-size_restricted.gif)
+
 # Background
 Washington Avenue in Natick is scheduled to be improved during the 'fall cycle' construction season of 2019. As part of the town's capital improvement budget the road will be resurfaced and continuous sidewalks will be installed on both sides of the roads. Currently the road is in desperate need of attention. The road is narrow and lacks adequate markings, there are numerous utility poles which block sight lines, sidewalks are obstructed in some places, lack curbing and demarkation from the roadway. 
 

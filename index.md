@@ -21,8 +21,23 @@ The setup consists of a Raspberry Pi 3b+ running Debian Stretch, a Microsoft Lif
 
 According to the [specs from the webcam](https://dl2jx7zfbtwvr.cloudfront.net/specsheets/WEBC1010.pdf) the FoV is 68.5° diagonal. I used Google Maps to measure the distance from my window to the road. Since the angle, and distance are known, it's a matter of using some basic trig to calculate the total range within the field of view of the web cam. Finally, I used OpenCV for image processing to detect movement via that camera's captured frames and then time the duration of an object moving across the field of view. 
 
+<p align="center">
+  <img src="https://i.imgur.com/cK1l6rz.png">
+</p>
+
+**Where:** 
+* V = .5 * Field of View
+* D = Distance to the road
+* R = 2 * D * tan(V)
+
+The angular FoV of the Microsoft LifeCam HD-3000 is 59.1 and the distance from the road is 58. So using the formula above to calculate the value for R: 
+
+R = 2 * 58 * tan(.5 * 59.1)
+
+Solving for R yields ~65. The camera sees approximately 65 feet of road when it's positioned in my window 58 feet away. The camera is set to capture images 1024 pixels wide, so we know that each pixel traveled is ~0.06 feet. 
+
 ### Sample Pictures and Data
-The speed camera is running a
+
 
 ## Limitations
 I tested the setup with cars going at known speeds of 20, 25, 30, 35 and 40 mph. The results are accurate to within a single MPH or two, which is probably good enough for my study. The software can't detect when multiple objects are within the tracking area, so the number of cars counted is definitely less than reality. The camera also only works during daylight hours, so the measurements much before or after sunrise/sunset aren't accurate at all. 

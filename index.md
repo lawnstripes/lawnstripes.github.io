@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+![preview](https://thumbs.gfycat.com/MindlessLargeDunlin-size_restricted.gif)
+# Background
+Washington Avenue in Natick is scheduled to be improved during the 'fall cycle' construction season of 2019. As part of the town's capital improvement budget the road will be resurfaced and continuous sidewalks will be installed on both sides of the roads. Currently the road is in desperate need of attention. The road is narrow and lacks adequate markings, there are numerous utility poles which block sight lines, sidewalks are obstructed in some places, lack curbing and demarkation from the roadway. 
 
-You can use the [editor on GitHub](https://github.com/lawnstripes/lawnstripes.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## The Problem
+The town hosted a public forum on December 3, 2018 to share its results of a land survey which was conducted during the fall of 2018. Town engineers along with a consultant from Environmental Partners, Inc. shared their goals of resurfacing the road, adding continuous sidewalks, redesigning the route 27 / Lake Ave entrance of Washington Ave. In addition citizens were able to voice concerns about the street with the hopes that their concerns could aid in the final design and project. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+There were a number of concerns voiced during the meeting. Many folks were concerned about the ineffectivenes and lack of crosswalks on the street. Further there was discussion about various traffic calming measures that could be introduced. Finally, and what struck me as being the most surprising was a comment from the traffic officer that there had been little if any complaints from residents regarding the speed of traffic on the road. Further, it was shared that a traffic study to 'count axles' could be completed at some point during the spring. 
 
-### Markdown
+## Solution
+I had gotten a Raspberry Pi for myself at some point during the fall and forgetting what I had originally purchased it for decided this would be an interesting project to take on. A couple of google searches lead me to a few implementations using the raspberry pi, a webcam, and OpenCV to detect motion and track an object. From there it's a matter of timing the object as it moves through the field of view and using that timing informaiton and some information about or camera to determine a fairly accurate speed. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Setup 
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+Sample pictures
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lawnstripes/lawnstripes.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

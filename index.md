@@ -50,7 +50,7 @@ When the camera determines the speed of a tracked object it captures and image o
 If there is interest in the source code, I can upload it to github as well. 
 
 ## Results
-To my surprise, the average speeds on Washington Ave (at least on the 65' in front of my house) are just about at the speed limit. It seems to me that the perception of speed on the street likely enabled by the lack of markings, defined curbcuts, all of the things which were spoken to during the previous meetings. The table below shows the average speed and count of vehicles during each day of the week for the period 3/1 - 3/14.
+To my surprise, the average speeds on Washington Ave (at least on the 65' in front of my house) are just about at the speed limit. It seems to me that the perception of speed on the street likely enabled by the lack of markings, defined curbcuts, all of the things which were spoken to during the previous meetings. The table below shows the average speed and count of vehicles during each day of the week for the period 3/1 - 3/14 between the hours of 6am and 6pm.
 
 | Day | Avg Speed (mph) | Avg Cars |
 | --- | --- | --- |
@@ -62,7 +62,7 @@ To my surprise, the average speeds on Washington Ave (at least on the 65' in fro
 | Friday | 28 | 3724  |
 | Saturday | 28 | 2448 | 
 
-[I used Excel to create the table above, there is probably a lot more information hiding within](https://s3.amazonaws.com/washingtonave-speedcam/carspeed.xlsx). I did clean up the data a bit to remove most of the false positives from the results, any captures that weren't during daylight hours, etc. If you're interested in the raw data it's here too, [going back to 2/17 and until 3/17](https://s3.amazonaws.com/washingtonave-speedcam/carspeed_raw.csv).
+[I used Excel to create the table above, there is probably a lot more information hiding within](https://s3.amazonaws.com/washingtonave-speedcam/carspeed.xlsx). I did clean up the data a bit to remove most of the false positives from the results, any captures that weren't during daylight hours, etc. If you're interested in the raw data it's here too, [going back to 2/17/19 and until 3/17/19](https://s3.amazonaws.com/washingtonave-speedcam/carspeed_raw.csv).
 
 ## Limitations
 I tested the setup with cars going at known speeds of 20, 25, 30, 35 and 40 mph. The results are accurate to within a single MPH or two, which is probably good enough for my study. The software can't detect when multiple objects are within the tracking area, so the number of cars counted is definitely less than reality. The camera also only works during daylight hours, so the measurements much before or after sunrise/sunset aren't accurate at all. 

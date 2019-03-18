@@ -32,7 +32,7 @@ According to the [specs from the webcam](https://dl2jx7zfbtwvr.cloudfront.net/sp
 
 The angular FoV of the Microsoft LifeCam HD-3000 is 59.1 and the distance from the road is 58. So using the formula above to calculate the value for R: 
 
-R = 2 * 58 * tan(.5 * 59.1)
+      R = 2 * 58 * tan(.5 * 59.1)
 
 Solving for R yields ~65. The camera sees approximately 65 feet of road when it's positioned in my window 58 feet away. The camera is set to capture images 1024 pixels wide, so we know that each pixel traveled is ~0.06 feet. 
 
@@ -50,7 +50,7 @@ When the camera determines the speed of a tracked object it captures and image o
 If there is interest in the source code, I can upload it to github as well. 
 
 ## Results
-To my pleasent surprise, the average speeds on Washington Ave (at least on the 65' in front of my house) are just about at the speed limit. It seems to me that the perception of speed on the street likely enabled by the lack of markings, defined curbcuts, all of the things which were spoken to during the previous meetings. The table below shows the average speed and count of vehicles during each day of the week for the period 3/1 - 3/14.
+To my surprise, the average speeds on Washington Ave (at least on the 65' in front of my house) are just about at the speed limit. It seems to me that the perception of speed on the street likely enabled by the lack of markings, defined curbcuts, all of the things which were spoken to during the previous meetings. The table below shows the average speed and count of vehicles during each day of the week for the period 3/1 - 3/14.
 
 | Day | Avg Speed (mph) | Avg Cars |
 | --- | --- | --- |

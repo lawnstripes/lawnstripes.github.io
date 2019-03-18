@@ -44,7 +44,7 @@ When the camera determines the speed of a tracked object it captures and image o
 </p>
 
 | Date | Day | Time | Direction | Speed | URL |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | ---: | --- |
 | 2019.02.20 | Wednesday | 1016 | S | 28 | https://s3.amazonaws.com/washingtonave-speedcam/car_at_20190220_101653.jpg |
 
 If there is interest in the source code, I can upload it to github as well. 
@@ -53,7 +53,7 @@ If there is interest in the source code, I can upload it to github as well.
 To my surprise, the average speeds on Washington Ave (at least on the 65' in front of my house) are just about at the speed limit. It seems to me that the perception of speed on the street likely enabled by the lack of markings, defined curbcuts, all of the things which were spoken to during the previous meetings. The table below shows the average speed and count of vehicles during each day of the week for the period 3/1 - 3/14 between the hours of 6am and 6pm.
 
 | Day | Avg Speed (mph) | Avg Cars |
-| --- | --- | --- |
+| --- | ---: | ---: |
 | Sunday | 28  | 2088 |
 | Monday | 27  | 2747 |
 | Tuesday | 27 | 3692 |

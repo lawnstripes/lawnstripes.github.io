@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://thumbs.gfycat.com/MindlessLargeDunlin-size_restricted.gif">
+  <img src="https://thumbs.gfycat.com/MindlessLargeDunlin-size_restricted.gif" />
 </p>
 
 # Background
@@ -40,7 +40,7 @@ Solving for R yields ~65. The camera sees approximately 65 feet of road when it'
 When the camera determines the speed of a tracked object it captures and image of the object and stores an entry regarding the time, speed and direction of travel. I've uploaded the images and data to AWS so that it's available to those that are interested.
 
 <p align="center">
-  <img src="https://s3.amazonaws.com/washingtonave-speedcam/car_at_20190220_101653.jpg">
+  <img src="https://s3.amazonaws.com/washingtonave-speedcam/car_at_20190220_101653.jpg" />
 </p>
 
 | Date | Time | Direction | Speed | URL |

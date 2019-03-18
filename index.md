@@ -19,7 +19,7 @@ The setup consists of a Raspberry Pi 3b+ running Debian Stretch, a Microsoft Lif
   <img height="320" width="240" src="https://i.imgur.com/vjRcmYAl.jpg">
 </p>
 
-According to the [specs from the webcam](https://dl2jx7zfbtwvr.cloudfront.net/specsheets/WEBC1010.pdf) the FoV is 68.5° diagonal. I used Google Maps to measure the distance from my window to the road. Since the angle, and distance are known, it's a matter of using some basic trig to calculate the total range within the field of view of the web cam. Finally, I used OpenCV for image processing to detect movement via that camera's captured frames and then time the duration of an object moving across the field of view. 
+According to the [specs from the webcam](https://dl2jx7zfbtwvr.cloudfront.net/specsheets/WEBC1010.pdf) the Field of View (FoV) is 68.5° diagonal. I used Google Maps to measure the distance from my window to the road. Since the angle, and distance are known, it's a matter of using some basic trig to calculate the total range within the field of view of the web cam. Finally, I used OpenCV for image processing to detect movement via that camera's captured frames and then time the duration of an object moving across the field of view. 
 
 <p align="center">
   <img src="https://i.imgur.com/cK1l6rz.png">
@@ -35,6 +35,8 @@ The angular FoV of the Microsoft LifeCam HD-3000 is 59.1 and the distance from t
       R = 2 * 58 * tan(.5 * 59.1)
 
 Solving for R yields ~65. The camera sees approximately 65 feet of road when it's positioned in my window 58 feet away. The camera is set to capture images 1024 pixels wide, so we know that each pixel traveled is ~0.06 feet. 
+
+To calculate the speed of a car divide the distance traveled by the time taken to complete the trip. All trips in this case are 65 feet long, so it's a matter of timing a car as it drives by and diving by 65 in order to get a feet per second calculation. OpenCV provides the object detection which makes the trip timing possible. When a car enters the camera's FoV a timer is started. The timer is stopped when the object hits the opposite edge of the FoV giving a trip duration. 
 
 ### Sample Pictures and Data
 When the camera determines the speed of a tracked object it captures and image of the object and stores an entry regarding the time, speed and direction of travel. I've uploaded the images and data to AWS so that it's available to those that are interested.

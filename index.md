@@ -43,11 +43,26 @@ When the camera determines the speed of a tracked object it captures and image o
   <img src="https://s3.amazonaws.com/washingtonave-speedcam/car_at_20190220_101653.jpg" />
 </p>
 
-| Date | Time | Direction | Speed | URL |
-| --- | --- | --- | --- | --- |
-| 2019.02.20 | 101653 | S | 28 | https://s3.amazonaws.com/washingtonave-speedcam/car_at_20190220_101653.jpg |
+| Date | Day | Time | Direction | Speed | URL |
+| --- | --- | --- | --- | --- | --- |
+| 2019.02.20 | Wednesday | 1016 | S | 28 | https://s3.amazonaws.com/washingtonave-speedcam/car_at_20190220_101653.jpg |
 
 If there is interest in the source code, I can upload it to github as well. 
+
+## Results
+To my pleasent surprise, the average speeds on Washington Ave (at least on the 65' in front of my house) are just about at the speed limit. It seems to me that the perception of speed on the street likely enabled by the lack of markings, defined curbcuts, all of the things which were spoken to during the previous meetings. The table below shows the average speed and count of vehicles during each day of the week for the period 3/1 - 3/14.
+
+| Day | Avg Speed (mph) | Avg Cars |
+| --- | --- | --- |
+| Sunday | 28  | 2088 |
+| Monday | 27  | 2747 |
+| Tuesday | 27 | 3692 |
+| Wednesday | 29 | 3901 | 
+| Thursday | 28 | 3892  | 
+| Friday | 28 | 3724  |
+| Saturday | 28 | 2448 | 
+
+[I used Excel to create the table above, there is probably a lot more information hiding within](https://s3.amazonaws.com/washingtonave-speedcam/carspeed.xlsx). I did clean up the data a bit to remove most of the false positives from the results, any captures that weren't during daylight hours, etc. If you're interested in the raw data it's here too, [going back to 2/17 and until 3/17](https://s3.amazonaws.com/washingtonave-speedcam/carspeed_raw.csv).
 
 ## Limitations
 I tested the setup with cars going at known speeds of 20, 25, 30, 35 and 40 mph. The results are accurate to within a single MPH or two, which is probably good enough for my study. The software can't detect when multiple objects are within the tracking area, so the number of cars counted is definitely less than reality. The camera also only works during daylight hours, so the measurements much before or after sunrise/sunset aren't accurate at all. 

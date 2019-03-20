@@ -22,7 +22,7 @@ The setup consists of a Raspberry Pi 3b+ running Debian Stretch, a Microsoft Lif
 According to the [specs from the webcam](https://dl2jx7zfbtwvr.cloudfront.net/specsheets/WEBC1010.pdf) the Field of View (FoV) is 68.5° diagonal. I used Google Maps to measure the distance from my window to the road. Since the angle, and distance are known, can use some basic trig to calculate the total range within the field of view of the web cam. Finally, I used OpenCV for image processing to detect movement via that camera's captured frames and then time the duration of an object moving across the field of view. 
 
 <p align="center">
-  <img src="https://i.imgur.com/cK1l6rz.png">
+  <img src="https://i.imgur.com/gD4OCi2.png">
 </p>
 
 **Where:** 
